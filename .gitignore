@@ -1,0 +1,84 @@
+#############################################
+# Android Studio / IntelliJ IDEA
+#############################################
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+
+#############################################
+# Gradle Build Outputs & Caches
+#############################################
+build/
+.gradle/
+**/build/
+**/.gradle/
+local.properties
+
+#############################################
+# Android Generated Files
+#############################################
+gen/
+out/
+bin/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+#############################################
+# Kotlin / Java Compiled Files
+#############################################
+*.class
+*.jar
+!gradle-wrapper.jar
+
+#############################################
+# Signing & Secrets (NEVER commit these)
+#############################################
+*.jks
+*.keystore
+*.p12
+keystore.properties
+secrets.properties
+google-services.json
+GoogleService-Info.plist
+
+#############################################
+# OS Junk Files
+#############################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#############################################
+# NDK / C++ (if applicable)
+#############################################
+*.so
+*.o
+*.obj
+obj/
+.externalNativeBuild/
+cmake-build-*/
+
+#############################################
+# Lint & Test Reports
+#############################################
+lint/
+*.lint
+captures/
+reports/
+
+#############################################
+# ProGuard / R8 Mapping (keep if you publish)
+#############################################
+mapping.txt   ← uncomment to ignore
