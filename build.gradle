@@ -1,0 +1,16 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application' version '9.0.1' apply false
+    id 'com.android.library'     version '9.0.1' apply false
+    // Kotlin is now built into AGP 9.0; declaring it here is optional
+    // but keeps it available if needed by other modules or tooling.
+    id 'org.jetbrains.kotlin.android' version '2.3.10' apply false
+}
+
+// Repository management is now handled in settings.gradle
+// (dependencyResolutionManagement block).
+// The old allprojects { repositories {} } block is no longer needed here.
+
+tasks.register('clean', Delete) {
+    delete rootProject.layout.buildDirectory
+}
