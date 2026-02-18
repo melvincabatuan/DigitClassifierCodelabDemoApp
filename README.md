@@ -6,6 +6,8 @@
 - Deploy and integrate a TensorFlow Lite model within an Android application.
 
 ## Procedures:
-
 - Follow and implement the procedures outlined in the “Build a Handwritten Digit Classifier App with TensorFlow Lite” codelab available at the following link: https://developer.android.com/codelabs/digit-classifier-tflite#0 
-- You may use the updated code above since the course files might not be updated.  
+- You may use the updated code above since the course files might not be updated.
+
+## Screenshot
+- ![Test](https://github.com/melvincabatuan/DigitClassifierCodelabDemoApp/blob/master/img/capture.png)
